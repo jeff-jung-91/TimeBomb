@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let blueRectangleLayer = RectangleLayer()
+    let redRectangleLayer = RectangleLayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

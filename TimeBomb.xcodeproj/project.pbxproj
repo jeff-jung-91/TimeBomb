@@ -13,8 +13,23 @@
 		1FBB8086244011E50015C21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB8084244011E50015C21E /* Main.storyboard */; };
 		1FBB8088244011E80015C21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB8087244011E80015C21E /* Assets.xcassets */; };
 		1FBB808B244011E80015C21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBB8089244011E80015C21E /* LaunchScreen.storyboard */; };
-		1FBB8093244012640015C21E /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB8092244012640015C21E /* RectangleLayer.swift */; };
+		1FBB8093244012640015C21E /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB8092244012640015C21E /* CircleLayer.swift */; };
+		1FBB8095244015820015C21E /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB8094244015820015C21E /* HolderView.swift */; };
+		1FBB809724401EE30015C21E /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB809624401EE30015C21E /* ArcLayer.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FDD0DAA24610EE000073A53 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1FBB807B244011E50015C21E /* TimeBomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeBomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,7 +40,9 @@
 		1FBB8087244011E80015C21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FBB808A244011E80015C21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBB808C244011E80015C21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FBB8092244012640015C21E /* RectangleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		1FBB8092244012640015C21E /* CircleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		1FBB8094244015820015C21E /* HolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		1FBB809624401EE30015C21E /* ArcLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +78,9 @@
 				1FBB807E244011E50015C21E /* AppDelegate.swift */,
 				1FBB8080244011E50015C21E /* SceneDelegate.swift */,
 				1FBB8082244011E50015C21E /* ViewController.swift */,
-				1FBB8092244012640015C21E /* RectangleLayer.swift */,
+				1FBB809624401EE30015C21E /* ArcLayer.swift */,
+				1FBB8092244012640015C21E /* CircleLayer.swift */,
+				1FBB8094244015820015C21E /* HolderView.swift */,
 				1FBB8084244011E50015C21E /* Main.storyboard */,
 				1FBB8087244011E80015C21E /* Assets.xcassets */,
 				1FBB8089244011E80015C21E /* LaunchScreen.storyboard */,
@@ -80,6 +99,7 @@
 				1FBB8077244011E50015C21E /* Sources */,
 				1FBB8078244011E50015C21E /* Frameworks */,
 				1FBB8079244011E50015C21E /* Resources */,
+				1FDD0DAA24610EE000073A53 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -141,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBB809724401EE30015C21E /* ArcLayer.swift in Sources */,
 				1FBB8083244011E50015C21E /* ViewController.swift in Sources */,
-				1FBB8093244012640015C21E /* RectangleLayer.swift in Sources */,
+				1FBB8093244012640015C21E /* CircleLayer.swift in Sources */,
+				1FBB8095244015820015C21E /* HolderView.swift in Sources */,
 				1FBB807F244011E50015C21E /* AppDelegate.swift in Sources */,
 				1FBB8081244011E50015C21E /* SceneDelegate.swift in Sources */,
 			);

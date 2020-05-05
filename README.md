@@ -1,5 +1,5 @@
 # TimeBomb
-* Simple 8 min TimeBomb Timer <br>
+* 8 min TimeBomb Timer <br>
 
 # Usage
 

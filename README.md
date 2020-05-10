@@ -11,6 +11,7 @@
 I have far-reaching plans to improve TimeBomb. I want to add:
 * Time selection 
 * Background Mode
+* 1 min TimeBank
 
 # Screenshot
 <p float="left">

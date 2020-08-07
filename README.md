@@ -21,4 +21,6 @@ I have far-reaching plans to improve TimeBomb. I want to add:
 
 
 
+<img src="https://user-images.githubusercontent.com/38883364/89635877-a3c49780-d8e2-11ea-8d98-4d4ef31147eb.png" width="200"/>
 <img src="https://user-images.githubusercontent.com/38883364/89635882-a6bf8800-d8e2-11ea-96b7-10e8ffc543ec.png" width="200"/>
+

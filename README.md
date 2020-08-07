@@ -18,3 +18,7 @@ I have far-reaching plans to improve TimeBomb. I want to add:
 <img src="https://user-images.githubusercontent.com/38883364/81054156-3da23000-8f01-11ea-9a7a-3df03c6b217b.png" width="200"/>
 <img src="https://user-images.githubusercontent.com/38883364/81054213-5a3e6800-8f01-11ea-969a-031fa613dfec.png" width="200"/>
 </p><br>
+
+
+
+<img src="https://user-images.githubusercontent.com/38883364/89635882-a6bf8800-d8e2-11ea-96b7-10e8ffc543ec.png" width="200"/>
